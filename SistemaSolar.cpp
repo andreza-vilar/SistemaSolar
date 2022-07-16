@@ -1,6 +1,5 @@
 /*>Discente: Andreza Vilar de Farias
 >Período: 2021.1
->Curso: Engenharia Elétrica
 >Disciplina: Técnicas de Programação/
 
 #include <iostream>
