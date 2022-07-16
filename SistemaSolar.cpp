@@ -1,11 +1,7 @@
 /*>Discente: Andreza Vilar de Farias
->MatrÌcula: 120210357
->PerÌodo: 2021.1
->Curso: Engenharia ElÈtrica
->Disciplina: TÈcnicas de ProgramaÁ„o
->Turma: 02
->Professor: Marcus Salerno
->Unidade 2 : lvp 5*/
+>Per√≠odo: 2021.1
+>Curso: Engenharia El√©trica
+>Disciplina: T√©cnicas de Programa√ß√£o/
 
 #include <iostream>
 #include <iomanip>
@@ -105,7 +101,7 @@ int main (){
 	cout<<"Raio:";
 	cin >>PlanetaAux2.raioPlaneta;
 	cout<<endl;
-	cout<<"Dist‚ncia entre os corpos: ";
+	cout<<"Dist√¢ncia entre os corpos: ";
 	cin >> distancia;
 
 
@@ -113,10 +109,10 @@ int main (){
 	Sistema_Solar.setPlanetas(PlanetaAux, PlanetaAux2);
 
 	cout<<endl<<": "<<scientific<<setprecision(2);
-    cout<<endl<<"A forÁa gravitacional È: "<< Sistema_Solar.forcaGravitacional()<<"N";
-    cout<<endl<<"O campo gravitacional do maior corpo celeste È: "<<Sistema_Solar.campoGravitacional()<<"m/s≤";
-    cout<<endl<<"A velocidade de escape do maior corpo È: "<<Sistema_Solar.velocidadeDeEscape()<<"km/s";
-    cout<<endl<<"A velocidade em orbita do menor corpo em relaÁ„o ao maior È: "<<Sistema_Solar.velocidadeEmOrbita()<<"km/s";
+    cout<<endl<<"A for√ßa gravitacional √©: "<< Sistema_Solar.forcaGravitacional()<<"N";
+    cout<<endl<<"O campo gravitacional do maior corpo celeste √©: "<<Sistema_Solar.campoGravitacional()<<"m/s¬≤";
+    cout<<endl<<"A velocidade de escape do maior corpo √©: "<<Sistema_Solar.velocidadeDeEscape()<<"km/s";
+    cout<<endl<<"A velocidade em orbita do menor corpo em rela√ß√£o ao maior √©: "<<Sistema_Solar.velocidadeEmOrbita()<<"km/s";
 
 
 	return 0;
